@@ -1,0 +1,19 @@
+Practice app.
+
+Based on https://youtu.be/w09bG48UJU0
+
+example of algorithm and toke type:
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+
+example of user with role admin:
+{
+  "sub": "1234567890",
+  "name": "John Doe",
+  "iat": 1516239022,
+  "role": "ROLE_ADMIN"
+}
+
+token generation: https://jwt.io/
